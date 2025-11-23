@@ -34,9 +34,9 @@ Ripristinare un percorso valido in ExecStart.
 
 ## 🏷 Note
 
-    Le override in /etc/systemd/system sostituiscono completamente la unit originale
+- Le override in /etc/systemd/system sostituiscono completamente la unit originale
 
-    203/EXEC appare quando l’eseguibile non può essere aperto
+- 203/EXEC appare quando l’eseguibile non può essere aperto
 
-    L’errore è di systemd, non del servizio
+- L’errore è di systemd, non del servizio
 
