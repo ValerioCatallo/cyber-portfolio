@@ -26,9 +26,11 @@ Il binario `cupsd_fake` non esiste → `status=203/EXEC` + ENOENT.
 ```text
 openat(AT_FDCWD, "/usr/sbin/cupsd_fake", ...) = -1 ENOENT
 
+
 🛠 Fix rapido
 
 Ripristinare un percorso valido in ExecStart.
+
 🏷 Note
 
     Le override in /etc/systemd/system sostituiscono completamente la unit originale
