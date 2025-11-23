@@ -24,6 +24,7 @@ Il binario `cupsd_fake` non esiste → `status=203/EXEC` + ENOENT.
 ## 📎 Traccia essenziale
 
 ```text
+
 openat(AT_FDCWD, "/usr/sbin/cupsd_fake", ...) = -1 ENOENT
 
 
